@@ -1,7 +1,12 @@
 import React from "react";
 
 const Input = () => {
-  return <div>Input</div>;
+  return (
+    <label className="sidebar-label-container">
+      <input type="radio" name="test" />
+      <span className="checkmark" label></span>All
+    </label>
+  );
 };
 
 export default Input;
