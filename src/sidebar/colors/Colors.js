@@ -1,32 +1,37 @@
 import React from "react";
-import "./Price.css";
+import "./Colors.css";
 
-const Price = () => {
+const Color = () => {
   return (
-    <div className="ml">
-      <h2 className="sidebar-title price-title">Price</h2>
-      <label className="sidebar-label-container">
+    <div>
+      <h2 className="sidebar-title price-title">Color</h2>
+
+      <label className="sidebar-label-container color-title">
         <input type="radio" name="test2" />
         <span className="checkmark" label></span>All
       </label>
       <label className="sidebar-label-container">
         <input type="radio" name="test2" />
-        <span className="checkmark" label></span>$0 - $50
+        <span className="checkmark" label></span>Black
       </label>
       <label className="sidebar-label-container">
         <input type="radio" name="test2" />
-        <span className="checkmark" label></span>$50 - $100
+        <span className="checkmark" label></span>Blue
       </label>
       <label className="sidebar-label-container">
         <input type="radio" name="test2" />
-        <span className="checkmark" label></span>$100 - $150
+        <span className="checkmark" label></span>Red
       </label>
       <label className="sidebar-label-container">
         <input type="radio" name="test2" />
-        <span className="checkmark" label></span>Over $150
+        <span className="checkmark" label></span>Green
+      </label>
+      <label className="sidebar-label-container">
+        <input type="radio" name="test2" />
+        <span className="checkmark" label></span>White
       </label>
     </div>
   );
 };
 
-export default Price;
+export default Color;
